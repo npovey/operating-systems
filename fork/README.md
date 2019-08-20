@@ -6,7 +6,7 @@ This program is in a way how the shell works.
 Shell would be running in an infinite loop and waiting for the user input.
 Once it has an input it would fork a process that would call exec()
 To compile: g++ processes.cpp -o processes   or g++ processes.cpp
-To execute: ./processes kworker or ./a.out kworker
+To execute: ./processes python or ./a.out python
 
 ```{python}
 (base) [npovey@ka fork]$ ps -A 
